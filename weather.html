@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather forecast</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="weather.css">
+    <script src="wea.js" defer> </script>
+
+</head>
+<body>
+    <header>
+    <h1>Weather forecast.</h1>
+
+    </header>
+
+
+<div class="container">
+    <div class="weather-input">
+        
+      <div class="currentdate">
+        FIND THE WEATHER FORECAST
+    </div>
+       Enter the city name:
+       <input class="cityinput" type="text" placeholder="Eg. Tokyo , Dubai , Delhi">
+       <br>
+      <button class="searchbtn">search</button> 
+      
+      <button class="locationbtn">get current location</button> 
+     
+</div>
+
+  <div class="weather-data" >
+    <div class="current-weather">
+        <div class="details">
+            <h2>____(____)</h2>
+            <p> temperature <i class="fa fa-thermometer"></i> : _____ °C</p>
+            <p>wind speed: _____ m/s </p>
+            <p>humidity <i class="fa fa-cloud"></i>:_____ %</p>
+         </div>
+       
+      </div>
+
+
+
+
+    </div>
+</div>
+
+<div class="days-forecast">
+    <h2>next 5 days forecast</h2>
+    <ul class="forecast-card">
+        <li class="days">
+            <h2>( _____ ) </h2>
+            <p> temperature <i class="fa fa-thermometer"></i> : _____ °C</p>
+            <p>wind speed: _____ m/s </p>
+            <p>humidity <i class="fa fa-cloud"></i>:_____ %</p>
+        </li>
+        <li class="days">
+            <h2>( _____ ) </h2>
+            <p> temperature <i class="fa fa-thermometer"></i> : _____ °C</p>
+            <p>wind speed: _____ m/s </p>
+            <p>humidity <i class="fa fa-cloud"></i>:_____ %</p>
+        </li>
+        <li class="days">
+            <h2>( _____ ) </h2>
+            <p> temperature <i class="fa fa-thermometer"></i> : _____ °C</p>
+            <p>wind speed: _____ m/s </p>
+            <p>humidity <i class="fa fa-cloud"></i>:_____ %</p>
+        </li>
+        <li class="days">
+            <h2>( _____ ) </h2>
+            <p> temperature <i class="fa fa-thermometer"></i> : _____ °C</p>
+            <p>wind speed: _____ m/s </p>
+            <p>humidity <i class="fa fa-cloud"></i>:_____ %</p>
+        </li>
+        <li class="days">
+            <h2>( _____ ) </h2>
+            <p> temperature <i class="fa fa-thermometer"></i> : _____ °C</p>
+            <p>wind speed: _____ m/s </p>
+            <p>humidity <i class="fa fa-cloud"></i>:_____ %</p>
+        </li>
+        
+    </ul>
+
+
+
+</div>
+
+</body>
+</html>
