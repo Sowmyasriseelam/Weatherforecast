@@ -32,7 +32,7 @@ button{
 }
 .container{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 100%;
     font-weight:lighter;
 
 }
@@ -56,9 +56,9 @@ button{
     height: fit-content;
 }
 .current-weather .icon{
-    max-width:120px;
+    max-width:70%;
     margin-top: 3%;
-    margin-left: 42%;
+    margin-left: 15%;
 }
 .weather-data{
     width: 100%;
