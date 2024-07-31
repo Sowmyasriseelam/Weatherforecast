@@ -1,0 +1,126 @@
+*{
+
+    text-transform: capitalize;
+    }
+body{
+  background-image: linear-gradient(#c8e2f1,rgb(119, 119, 236));
+}
+header{
+    text-shadow: 1px 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.weather-input{
+    padding: 1rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+.weather-input input{
+    width: 50%;
+    padding: 1rem;
+    border: 1px solid #4d4a4c;
+    border-radius: 2px; 
+    margin:10px 0 10px 0;
+}
+button{
+    width: 25%;
+    padding: 1rem ;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    margin:5px 0 5px 0;  
+}
+.container{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight:lighter;
+
+}
+.weather-input .searchbtn{
+    background-color: #dbdbde;
+}
+.weather-input .locationbtn{
+    background-color: #dbdbde;
+}
+ 
+.weather-data .current-weather .details{
+    background-image: linear-gradient(#c8e2f1,rgb(119, 119, 236));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:.5rem;
+    border: 2px solid rgb(49, 46, 46);
+    box-shadow: 1px 1px 10px black;
+    margin-left: 25%;
+    line-height: .75rem;
+    text-align: center;
+    width: 50%;
+    height: fit-content;
+}
+.current-weather .icon{
+    max-width:120px;
+    margin-top: 3%;
+    margin-left: 42%;
+}
+.weather-data{
+    width: 100%;
+}
+.days-forecast .forecast-card{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content:space-between;
+    padding:.1rem;
+
+}
+
+.days-forecast .forecast-card .days{
+    background-image: linear-gradient(#c8e2f1,rgb(119, 119, 236));
+    box-shadow: 1px 1px 10px black;
+    padding: .5rem 1rem;
+    border: 2px solid rgb(13, 12, 12);
+    border-radius: 3px;
+    list-style: none;
+    width: calc(100%/6);
+    height:fit-content;
+}
+.days-forecast .forecast-card{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content:space-between;
+    padding:.1rem;
+
+}
+.forecast-card .days .img{
+    max-width: 50px;
+}
+
+
+
+
+@media (max-width: 1400px) {
+    .weather-data .current-weather {
+      padding: 20px;
+    }
+    .forecast-card {
+      flex-wrap: wrap;
+    }
+    .forecast-card  .days {
+      width: calc(100% / 4 - 15px);
+    }
+  }
+  @media (max-width: 750px) {
+    h1 {
+      font-size: 1.45rem;
+      padding: .5rem;
+    }
+    .container {
+      flex-wrap: wrap;
+      
+      padding: 1rem;
+    }
+    .weather-input {
+      width: 100%;
+    }
+    .days-forecast h2 {
+      font-size: 1.35rem;
+
+    }
+  }

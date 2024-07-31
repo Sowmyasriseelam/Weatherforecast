@@ -7,7 +7,7 @@
 
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="weat.css">
     <script src="wea.js" defer> </script>
 
 </head>
@@ -25,6 +25,7 @@
         FIND THE WEATHER FORECAST
     </div>
        Enter the city name:
+       <br>
        <input class="cityinput" type="text" placeholder="Eg. Tokyo , Dubai , Delhi">
        <br>
       <button class="searchbtn">search</button> 
@@ -37,11 +38,14 @@
     <div class="current-weather">
         <div class="details">
             <h2>____(____)</h2>
+            <div class="icon">
+                <img>
+                <h6></h6>
+            </div>
             <p> temperature <i class="fa fa-thermometer"></i> : _____ °C</p>
             <p>wind speed: _____ m/s </p>
             <p>humidity <i class="fa fa-cloud"></i>:_____ %</p>
          </div>
-       
       </div>
 
 
@@ -51,7 +55,6 @@
 </div>
 
 <div class="days-forecast">
-    <h2>next 5 days forecast</h2>
     <ul class="forecast-card">
         <li class="days">
             <h2>( _____ ) </h2>
